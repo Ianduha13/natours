@@ -23,6 +23,7 @@
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 .heading-primary-main{
   display: block;
@@ -47,6 +48,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
+  text-align: center;
 }
 
 @keyframes moveInLeft{
@@ -75,5 +77,15 @@
   100%{
     opacity: 1;
     transform: translate(0);
+  }
+}
+@keyframes moveInBottom{
+  0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
   }
 }

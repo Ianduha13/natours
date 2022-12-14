@@ -1,4 +1,5 @@
 import "./styles/header.css"
+import Button from "./Button"
 import logowhite from "./styles/img/logo-white.png"
 const Header = () => {
   return (
@@ -11,6 +12,7 @@ const Header = () => {
           <span className='heading-primary-main'>Outdoors</span>
           <span className='heading-primary-sub'>is where life happens</span>
         </h1>
+        <Button />
       </div>
     </header>
   )
